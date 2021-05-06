@@ -4,18 +4,18 @@ This project reenables colors in Xcode`'s console (with a limited palette). Just
 
 ++++
 <p align="center">
-	<img src="xcode-console.png" width="960"/>
+	<img src="Docs/xcode-console.png" width="960"/>
 </p>
 ++++
 
 == Installation
 
-1. Add the font file named link:ColoredConsole-Bold.ttf[`ColoredConsole-Bold.ttf`] in the repo via the Mac OS application https://en.wikipedia.org/wiki/Font_Book[Font Book].
+1. Add the font file named link:Docs/ColoredConsole-Bold.ttf[`ColoredConsole-Bold.ttf`] in the repo via the Mac OS application https://en.wikipedia.org/wiki/Font_Book[Font Book].
 2. Back to Xcode. Go to "`Preference`" ⇢ "`Texts & Colors`" ⇢ "`Executable console Output,`" click the font icon below, then set font to "`Colored Console Bold.`"
 
 ++++
 <p align="center">
-	<img src="xcode-preferences.png" width="800"/>
+	<img src="Docs/xcode-preferences.png" width="800"/>
 </p>
 ++++
 
@@ -29,7 +29,7 @@ Recently I wondered, has the answer been staring us in the face all that time. W
 
 ++++
 <p align="center">
-	<img src="color-range.png" width="423"/>
+	<img src="Docs/color-range.png" width="423"/>
 </p>
 ++++
 
