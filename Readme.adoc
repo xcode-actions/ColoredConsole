@@ -38,3 +38,25 @@ The 5 colors are enabled by suffixing the character with one of the https://en.w
 == Changing the colors
 
 You can have different colors and modifier codepoints by changing and running `./colorify.pl`.  I have not documented this (yet).
+
+== Should I use this? (Frizlab’s thougths on the question)
+
+This workaround is amazing. The creativity that lead to thinking about solving the issue this way is beautiful on its own.
+
+But should you use it? +
+Probably not.
+
+The output of the text you want to write has to be modified before being sent to the console.
+This means you cannot copy-paste it!
+
+To be precise, you can copy it, and it will appear normal in a standard text editor. If you open the text in an hex editor though,
+you’ll see each char is actually 4 chars long.
+
+Searching any text copied from this modified output will not yield any result in a normal (unmodified) text.
+
+Finally, another issue is you cannot use the font you want, of course. You have to use a font which enables ligatures (and modify it
+to have the ligatures you want), or add said ligatures in the font you want to use.
+
+IMHO, the current workaround for the loss of the colors in Xcode’s console (using emojis) is probably the best, and that’s
+what we decided to use in https://github.com/xcode-actions/clt-logger[our logger for Command Line Tools] (but we do use colors
+when the output console is a terminal).
